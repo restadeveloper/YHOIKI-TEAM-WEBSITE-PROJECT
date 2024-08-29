@@ -8,20 +8,19 @@ li {
 }
 
 img {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.25rem;
+    height: 3.25rem;
 }
 
 .background {
     background-color: transparent;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .wadah_navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
+    padding: 1rem 3rem;
 }
 
 .subisi {
@@ -33,12 +32,18 @@ img {
 .subisi li a {
     color: #1d1d1d;
     font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.subisi li a:hover {
+    color: #26d317;
 }
 
 .LogTer {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .adacevron {
@@ -48,4 +53,48 @@ img {
 
 .ChevronDown {
     width: 1.3rem;
+}
+
+.logonya {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.text_logo {
+    color: #1C5E20;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.login {
+    background-color: #D9D9D9;
+    padding: 0.5rem 1.25rem 0.8rem 1.25rem;
+    border-radius: 25rem;
+}
+
+.login a {
+    color: #4e4e4e;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.register {
+    color: white;
+    background: linear-gradient(to right, #4CB050, #398E3D);
+    padding: 0.5rem 1.25rem 0.8rem 1.25rem;
+    border-radius: 25rem;
+}
+
+.register a {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.search {
+    background-color: #D9D9D9;
+    padding: 0.9rem 0.9rem;
+    border-radius: 25rem;
 }
