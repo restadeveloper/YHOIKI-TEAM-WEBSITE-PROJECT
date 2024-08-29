@@ -1,13 +1,16 @@
-import { useState } from 'react'
-import Nav from './Navbar/Nav.jsx'
-import './App.css'
 
-function App() {
+import Nav from "./components/Navbar/Nav";
+import './App.css'
+// import { LogIn } from 'react-feather';
+import Login from "./components/Login/Login";
+
+
+const App = () => {
   return (
-    <>
+    <div>
       <Nav />
-      <h1>Resta Asekkk</h1>
-    </>
+      <Login />
+    </div>
   )
 }
 
