@@ -1,6 +1,6 @@
 import "./Login.css";
 import BgLogin from "../../assets/img/bg-login.png";
-import Logo from "../../assets/img/logo.png";
+import Logo from "../../assets/img/logotop.png";
 import { FcGoogle } from "react-icons/fc";
 
 
