@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import Nav from './Navbar/Nav'
+import Nav from './Navbar/Nav.jsx'
 import './App.css'
 
 function App() {
   return (
     <>
-      <Nav className="Navbarcuy"/>
-      <h1>
-        ini bagian depan
-      </h1>
+      <Nav />
+      <h1>Resta Asekkk</h1>
     </>
   )
 }
