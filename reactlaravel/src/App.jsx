@@ -7,10 +7,9 @@ import Login from "./components/Login/Login";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Nav />
-      <Login />
-    </div>
+    </>
   )
 }
 
