@@ -1,23 +1,45 @@
+:root {
+  --text-color : #1d1d1d;
+  --abu: #d9d9d9;
+  --abu1: #5e5e5e;
+  --hijau: #4CB050;
+  --hijau1: #398E3D;
+  --hijau2: #2F7D32;
+}
+
 #root {
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  height: 0vh;
+  height: 100vh;
+}
+
+.Textnya p {
   margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
-body {
-  height: 0;
-}
-
-#root h1 {
+.Textnya h1 {
   margin-top: 10%;
 }
 
-.navbarnya {
-  margin-top: -25%;
-}
-
 .Vscode {
-  padding-top: 5rem;
+  padding-top: 2rem;
   width: 55rem;
   height: auto;
+}
+
+.get {
+  padding-top: 1.75rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--abu);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--hijau);
+  border-radius: 50px;
 }
