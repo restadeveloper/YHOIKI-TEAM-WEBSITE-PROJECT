@@ -1,0 +1,14 @@
+.isinya {
+    display: flex;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 0px 10px;
+    padding: 1rem 3rem;
+    margin-top: 1px;
+    gap: 1rem;
+}
+
+.isinya a {
+    color: var(--abu1);
+}

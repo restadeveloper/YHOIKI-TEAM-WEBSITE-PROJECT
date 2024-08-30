@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --text-color : #1d1d1d;
+  --abu: #d9d9d9;
+  --abu1: #5e5e5e;
+  --hijau: #4CB050;
+  --hijau1: #398E3D;
+  --hijau2: #2F7D32;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
