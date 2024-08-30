@@ -12,7 +12,7 @@ const App = () => {
       <Nav className='Nav'/>
       </div>
       <h1>
-        Mau Cari Atau Ingin Jadi Developer?
+        Mau Cari Jasa Developer Murah?
       </h1>
       <img src={Vscode} className="Vscode"/>
     </>
