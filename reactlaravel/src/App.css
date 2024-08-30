@@ -39,7 +39,7 @@
   background-color: var(--abu);
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
   background-color: var(--hijau);
   border-radius: 50px;
 }
