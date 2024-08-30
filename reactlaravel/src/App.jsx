@@ -1,4 +1,3 @@
-
 import Nav from "./components/Navbar/Nav";
 import Get from "./components/getstarted/Get"
 import Login from "./components/Login/Login";
