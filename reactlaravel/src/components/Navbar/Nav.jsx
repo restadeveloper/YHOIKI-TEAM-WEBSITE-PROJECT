@@ -1,3 +1,4 @@
+
 import { IoSearchSharp } from "react-icons/io5";
 import { FaAngleDown } from "react-icons/fa"
 import logo from "../../assets/img/logotop.png"
@@ -27,5 +28,3 @@ const Navbar_buatan_resta = () => {
         </>
     )
 }
-
-export default Navbar_buatan_resta;
