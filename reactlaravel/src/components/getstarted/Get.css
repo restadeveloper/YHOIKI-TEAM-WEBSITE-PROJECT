@@ -1,0 +1,57 @@
+:root {
+    --text-color : #1d1d1d;
+    --abu: #d9d9d9;
+    --abu1: #5e5e5e;
+    --hijau: #4CB050;
+    --hijau1: #398E3D;
+    --hijau2: #2F7D32;
+}
+
+.full {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+} 
+
+.wadah_get {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--abu);
+    border-radius: 50px;
+}
+
+.searchinput {
+    padding-left: 2.5rem;
+    font-size: 20px;
+    color: var(--abu1);
+    font-family: 'Poppins', sans-serif;
+    border: var(--abu1);
+    border-radius: 50px;
+    background-color: #d9d9d9;
+}
+
+.wadah_get input {
+    border: none;
+    outline: none;
+}
+
+.wadah_get input {
+    color: var(--abu1);
+}
+
+.get_text {
+    color: #fff;
+    font-size: 20px;
+    background: linear-gradient(to right, var(--hijau), var(--hijau2));
+    border-radius: 50px;
+    padding: 0.8rem 0.75rem;
+}
+.logosearch {
+    font-size: 2.5rem;
+    background-color: white;
+    border-radius: 50px;
+    padding: 0.5rem 0.5rem;
+}

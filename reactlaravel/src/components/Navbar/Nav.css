@@ -5,6 +5,15 @@
     width: 100%;
 }
 
+:root {
+    --text-color : #1d1d1d;
+    --abu: #d9d9d9;
+    --abu1: #5e5e5e;
+    --hijau: #4CB050;
+    --hijau1: #398E3D;
+    --hijau2: #2F7D32;
+}
+
 .navbar {
     width: 100%;
     position: fixed;
@@ -16,7 +25,7 @@
     gap: 1rem;
 }
 
-img {
+.logonya img {
     width: 3.25rem;
     height: 3.25rem;
 }
@@ -56,6 +65,10 @@ img {
     justify-content: space-between;
     gap: 1.5rem;
     align-items: center;
+}
+
+.subisi :hover {
+    color: var(--hijau1);
 }
 
 .adacevron {
