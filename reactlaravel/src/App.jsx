@@ -1,6 +1,7 @@
 import Nav from "./components/Navbar/Nav";
 import Get from "./components/getstarted/Get"
 import Login from "./components/Login/Login";
+import Footer from "./components/Footer/Footer";
 import Vscode from "./assets/img/capture.png"
 import './App.css'
 
@@ -8,8 +9,10 @@ import './App.css'
 const App = () => {
   return (
     <>
+      {/* <Login /> */}
+
       <div className="navbarnya">
-        <Nav className='Nav'/>
+        <Nav className='Nav' />
       </div>
       <div className="Textnya">
         <h1>
@@ -22,7 +25,8 @@ const App = () => {
       <div className="get">
         <Get />
       </div>
-      <img src={Vscode} className="Vscode"/>
+      <img src={Vscode} className="Vscode" />
+      <Footer />
     </>
   )
 }
