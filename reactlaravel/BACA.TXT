@@ -6,6 +6,6 @@ buka directory filenya misal cd C:/users/Download/React
 
 pnpm install
 
-dan run pake pnpm run dev 
+dan run pake pnpm run dev.
 
 okesippp sudah, tutor by restacoy😎😎😎
